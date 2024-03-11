@@ -64,13 +64,7 @@
 
 @media only screen and (max-width: 600px) {
     .descriptionButton {
-        margin: 2% 5%;
+        /*margin: 2% 5%;*/
         width: 100%;
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    .descriptionButton {
-        margin: 2% 5%;
     }
 }
