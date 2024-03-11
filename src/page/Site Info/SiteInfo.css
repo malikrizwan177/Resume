@@ -1,0 +1,22 @@
+.siteMainContainer{
+    text-align: center;
+    color: white;
+    margin: 5% 10% auto 10%;
+    position: relative; 
+}
+
+.siteSecContainer{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 100px;
+    margin-top: 5%;
+}
+
+.siteLogo{
+    height: 100px;
+}

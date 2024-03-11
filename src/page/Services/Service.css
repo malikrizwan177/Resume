@@ -1,0 +1,39 @@
+.serviceMainContainer{
+    text-align: center;
+    color: white;
+    margin: 3% 5% auto 5%;
+    position: relative; 
+}
+
+.serviceSecContainer{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .serviceSecContainer {
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+.eachserviceContainer{
+    padding: 2%;
+    margin: 2%;
+    width: 25%;
+}
+
+@media only screen and (max-width: 800px) {
+    .eachserviceContainer{
+        width: auto;
+    }
+}
+
+.serviceIcon{
+    height: 100px;
+
+}

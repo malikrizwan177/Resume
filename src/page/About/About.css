@@ -1,0 +1,168 @@
+.aboutMainContainer{
+    text-align: start;
+    color: white;
+    margin: 3% 10% auto 10%;
+    position: relative; 
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutMainContainer {
+        margin: 10% 10% 0% 10%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutMainContainer {
+        margin: 10% 5% 0% 5%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutMainContainer {
+        margin: 10% 4% 0% 4%;
+        text-align: center;
+    }
+}
+
+.aboutMainHeading{
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutMainHeading {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+.aboutHeadContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutHeadContainer {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutHeadContainer {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutHeadContainer{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.aboutImage{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: solid white;
+}
+
+.aboutHeaderButton{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    float: left;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutHeaderButton {
+        justify-content: center;
+        width: auto;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutHeaderButton {
+        justify-content: center;
+        width: auto;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutHeaderButton {
+        float: none;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .aboutHeaderButton {
+        float: none;
+        justify-content: center;
+        
+    }
+}
+
+.about2ndContainer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    gap: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .about2ndContainer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about2ndContainer {
+        flex-direction: column;
+    }
+}
+
+.skillContainer{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+    row-gap: 10px;
+}
+
+.skillLogo{
+    height: 70px
+}
+
+.aboutHr{
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.textRepeater{
+    display: flex;
+    align-items: start;
+}
+
+@media only screen and (max-width: 1000px) {
+    .textRepeater {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,76 @@
+.mainContainer{
+    text-align: center;
+    color: white;
+    margin: 10% 20% auto 20%;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mainContainer {
+        margin: 10% 10% 0% 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .mainContainer {
+        margin: 10% 5% 0% 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        margin: 10% 4% 0% 4%;
+    }
+}
+
+.mainHeading{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainHeading {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .subHeading{
+        font-size:medium;
+    }
+}
+
+.headerButton{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .headerButton {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.descriptionButton{
+    margin: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .descriptionButton {
+        margin: 2% 5%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .descriptionButton {
+        margin: 2% 5%;
+    }
+}

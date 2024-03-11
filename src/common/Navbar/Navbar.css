@@ -1,0 +1,22 @@
+.menu{
+    height: auto;
+    background: transparent;
+    margin: 0% 10% 0% 10%;
+    padding-top: 1%;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: large;
+    margin: auto 0%;
+    color: white;
+}
+
+.backgroundImage{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    filter:blur(13px)
+}
