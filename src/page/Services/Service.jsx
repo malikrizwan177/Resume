@@ -14,7 +14,7 @@ const Service = () => {
                     <Link to={`/portfolio`}><Button style={{width:'auto'}} ghost size='large'>See Example Project</Button></Link>
                 </div>
                 <div className='eachserviceContainer animate__animated animate__fadeIn animate__delay-1s'>
-                    <img className='serviceIcon' src='./icons/wordpress-logo.png'alt='Wordpress Logo'/>
+                    <img className='serviceIcon' src='./icons/wordpress.png'alt='Wordpress Logo'/>
                     <h1>Wordpress website development</h1>
                     <h3>Develop user friendly and responsive website on Wordpress using Elementor plugin </h3>
                     <Link to={`/portfolio`}><Button style={{width:'auto'}} ghost size='large'>See Example Project</Button></Link>
