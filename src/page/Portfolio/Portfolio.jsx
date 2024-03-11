@@ -20,7 +20,7 @@ const Portfolio = () => {
                     <a href='https://project-3-rouge.vercel.app/'><Button ghost size='large'>Check Website</Button></a>
                 </div>
                 <div className='eachportContainer animate__animated animate__fadeIn animate__delay-2s'>
-                    <img className='portIcon' src='./icons/wordpress-logo.png' alt='React-native Logo'/>
+                    <img className='portIcon' src='./icons/wordpress.png' alt='React-native Logo'/>
                     <h1>Project-3</h1>
                     <h3>A Collabrative project to develop a responsive and working website for the "Hotel Haveli One".
                         From buying domain name to developing the website using Elementor plugin along with SEO optimization was done

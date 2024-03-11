@@ -29,13 +29,13 @@ const SiteInfo = () => {
                     <h3>AntDesign</h3>
                 </div>
                 <div className='animate__animated animate__fadeIn animate__delay-2s'>
-                    <img style={{height:'30px'}} src='./icons/react-router-color.png' alt='React-Router Logo'></img>
+                    <img style={{height:'30px'}} src='./icons/react-router-color-inverted.png' alt='React-Router Logo'></img>
                 </div>
                 <div className='animate__animated animate__fadeIn animate__delay-2s'>
                     <img style={{height:'50px'}} src='./icons/typedjs.png' alt='Typed.js Logo'></img>
                 </div>
                 <div className='animate__animated animate__fadeIn animate__delay-2s'>
-                    <h1 style={{color:'blue'}}>Animate.css</h1>
+                    <h1 style={{color:'white'}}>Animate.css</h1>
                 </div>
             </div>
             <div className='headerButton'>
