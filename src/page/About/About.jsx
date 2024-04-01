@@ -51,7 +51,7 @@ const About = () => {
                     <img className='skillLogo' src='./icons/social.png' alt='CSS Logo'></img>
                     <img className='skillLogo' src='./icons/js.png' alt='JS Logo'></img>
                     <img className='skillLogo' src='./icons/atom.png' alt='React Logo'></img>
-                    <img className='skillLogo' src='./icons/bootstrap.png' alt='Bootstrap Logo'></img>
+                    <img className='skillLogo' src='./icons/tailwindcss.svg' alt='Tailwind Logo'></img>
                     <img className='skillLogo' src='./icons/antd_logo.jpeg' alt='AntDesign Logo'></img>
                     <img className='skillLogo' src='./icons/python.png' alt='Python Logo'></img>
                     <img className='skillLogo' src='./icons/mysql.png' alt='MySql Logo'></img>
