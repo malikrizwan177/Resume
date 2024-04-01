@@ -3,6 +3,7 @@
     color: white;
     margin: 10% 20% auto 20%;
     position: relative;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -20,6 +21,12 @@
 @media only screen and (max-width: 600px) {
     .mainContainer {
         margin: 10% 4% 0% 4%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .topContainer {
+        margin: 0 5%
     }
 }
 
@@ -46,15 +53,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 400px) {
     .headerButton {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
+       
     }
 }
 
